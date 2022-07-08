@@ -2,10 +2,12 @@
 Hziee TCL Washer Free With ESP32(Web)
 
 Q:What's the base?
-A:Just a piece of esp32
+A:Just a piece of esp32 with micropython develop enviroment.
 
 Q:How to Use?
-A:Flash it into MicroPython develop enviroment
+A:By http request within wifi.
+e.g. To start Standard Mode: http://192.168.16.16/?mode=1
+e.g. To send myself serial data: http://192.168.16.16/?raw=AA00CC
 
 Q:What's the extra lib.?
 A:Picoweb(for the web)
@@ -18,3 +20,6 @@ Dewatering: A0010201010100000000000000000000000000000000000000000000000000000000
 Stop: A0010200010200000000000000000000000000000000000000000000000000000000000000000000A6
 
 baudrate:9600
+
+
+
